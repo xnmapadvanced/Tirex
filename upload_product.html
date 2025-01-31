@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رفع منتج - متجر Tirex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>متجر <span>Tirex</span></h1>
+            <nav>
+                <a href="tirex.html">الصفحة الرئيسية</a>
+                <a href="upload_product.html">رفع منتج</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="upload-form-container">
+        <h2>رفع منتج جديد</h2>
+        <form id="uploadForm">
+            <input type="text" id="productTitle" placeholder="عنوان المنتج" required>
+            <textarea id="productDescription" placeholder="وصف المنتج" required></textarea>
+            <input type="url" id="productLink" placeholder="رابط المنتج" required>
+            <input type="file" id="productImage" accept="image/*" required>
+            <button type="submit">رفع المنتج</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>حقوق الطبع والنشر © 2025 متجر Tirex. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="upload_product.js"></script>
+</body>
+</html>
